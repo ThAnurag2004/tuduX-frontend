@@ -30,7 +30,7 @@ export const Login = () => {
         <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
           {/* Email */}
           <div>
-            <label className="block mb-1 font-medium text-sm sm:text-base">Email</label>
+            <label className="block mb-1 font-medium text-sm sm:text-base">email</label>
             <input
               type="email"
               name="email"
