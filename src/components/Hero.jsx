@@ -1,6 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import TaskCard from "./TaskCard";
 
 function Hero() {
+
+  const navigate = useNavigate();
+  const handelClick = () => {
+    navigate("/signup")
+  }
+
   return (
     <div className="w-full flex flex-col md:flex-row justify-between items-center gap-6 px-8 py-6 mb-10">
       {/* Left Section */}
@@ -14,12 +21,25 @@ function Hero() {
           beautifully.
         </p>
         <div className="mt-7 flex gap-5">
-          <button className="bg-black text-white px-6 py-3 rounded-lg text-lg">
-            Let's Go →{" "}
-          </button>
-          <button className="border-2 rounded-lg px-5"> Watch demo </button>
+            <button
+              onClick={handelClick}
+            className="bg-black text-white px-6 py-3 rounded-lg text-lg 
+              border-2 border-black
+              hover:bg-white hover:text-black 
+              transition-all duration-300 ease-in-out 
+              transform hover:scale-105 cursor-pointer shadow-md">
+              Let's Go →
+            </button>
+
+            <button className="border-2 border-black rounded-lg px-5 py-3 
+              hover:bg-black hover:text-white 
+              transition-all duration-300 ease-in-out 
+              transform hover:scale-105 cursor-pointer shadow-md">
+              Watch demo
+            </button>
         </div>
       </div>
+
 
       {/* Right Section */}
       <div className="w-full md:w-1/2 h-64 md:h-96 flex-shrink">

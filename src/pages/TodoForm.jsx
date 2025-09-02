@@ -1,11 +1,9 @@
 import React from 'react'
 
-function TodoForm() {
+export const TodoForm = () => {
   return (
     <div>
-      
+      <h1>todoform</h1>
     </div>
   )
 }
-
-export default TodoForm
