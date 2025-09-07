@@ -40,7 +40,7 @@ function Hero() {
       </div>
 
       {/* Mobile Add Task button */}
-      <div className="flex justify-center mt-4 md:hidden">
+      <div className="flex justify-center m-4 md:hidden">
         <button className="bg-black text-white px-5 py-1 rounded-lg text-lg border-2 border-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer shadow-md">
           Add Task
         </button>
