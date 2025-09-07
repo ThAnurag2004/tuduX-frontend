@@ -1,6 +1,6 @@
 import React from "react";
-import InfoCard from "./InfoCard";
-import { cardsData } from "../constants/feature.constant.js";
+import InfoCard from "./InfoCard.jsx";
+import { cardsData } from "../../constants/feature.constant.js";
 
 function Feature() {
   return (

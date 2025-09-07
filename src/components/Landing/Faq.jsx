@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { faqs } from '../constants/faqsdata.js'
+import { faqs } from '../../constants/faqsdata.js'
 
 function FrequentQuestion() {
   const [openIndex, setOpenIndex] = useState(null);

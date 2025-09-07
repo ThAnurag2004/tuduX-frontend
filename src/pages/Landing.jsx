@@ -1,10 +1,10 @@
 import React from 'react'
-import Feature from '../components/Feature'
-import FrequentQuestion from '../components/Faq'
-import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
-import Simulation from '../components/Simulation'
-import Footer from '../components/Footer'
+import Feature from '../components/Landing/Feature'
+import FrequentQuestion from '../components/Landing/Faq'
+import Hero from '../components/Landing/Hero'
+import Navbar from '../components/Landing/Navbar'
+import Simulation from '../components/Landing/Simulation'
+import Footer from '../components/Landing/Footer'
 
 export const Landing = () => {
   return (
